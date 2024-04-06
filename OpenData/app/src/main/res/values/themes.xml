@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.OpenData" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#0D47A1</item>
+    </style>
+
+    <style name="Theme.OpenData" parent="Base.Theme.OpenData" />
+</resources>

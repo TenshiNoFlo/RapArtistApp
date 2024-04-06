@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="@string/search"
+        android:paddingBottom="10dp"
+        android:autofillHints=""
+        tools:ignore="TextFields" />
+
+    <ListView
+        android:id="@+id/listview_artist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/editText_search" />
+
+    <Button
+        android:id="@+id/btn_filter_favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:text="@string/favorite"
+        tools:ignore="RelativeOverlap" />
+
+</RelativeLayout>

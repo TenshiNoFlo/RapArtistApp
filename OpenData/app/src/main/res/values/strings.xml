@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OpenData</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="back">Back</string>
+    <string name="neighborhood_hollywood">Neighborhood: Hollywood</string>
+    <string name="location_los_angeles">Location: Los Angeles</string>
+    <string name="years_active_2000_present">Years Active: 2000 - Present</string>
+    <string name="birthdate_january_1_1990">Birthdate: January 1, 1990</string>
+    <string name="summary_lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit">Summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="category_hip_hop">Category: Hip-Hop</string>
+    <string name="search">Search</string>
+    <string name="favorite">Favorite</string>
+    <string name="todo">TODO</string>
+    <string name="splashscreenimage">splashScreenImage</string>
+</resources>
